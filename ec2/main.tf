@@ -1,5 +1,5 @@
 module "my-ecommere-app" {
     source = "./modules/app-servers"
 
-    instance_type = "tr.medium"
+    instance_type = var.instance_type
 }
